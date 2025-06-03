@@ -2,7 +2,7 @@
 
 This is a 2-player Tetris game implemented in HTML, CSS, and JavaScript. It allows two players to play Tetris side-by-side on the same screen, with mechanics for sending garbage lines to the opponent.
 
-This project is a refactoring of an initial single-file HTML application and is **based on the Python code for a 2-player Tetris game by James Abela**, which can be found here: [jamesabela/2playertetris](https://github.com/jamesabela/2playertetris/tree/main).
+This project is **based on the Python code for a 2-player Tetris game by James Abela**, which can be found here: [jamesabela/2playertetris](https://github.com/jamesabela/2playertetris/tree/main).
 
 ## Features
 
