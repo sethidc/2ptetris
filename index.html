@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2 Player Tetris</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="player-area">
+      <h2 class="player-title">Player 1</h2>
+      <div class="canvas-wrapper">
+        <canvas id="player1" class="tetris-board" width="300" height="600"></canvas>
+        <div id="gameOver1" class="game-over hidden">
+          <h2 class="game-over-title">Game Over!</h2>
+          <button id="restart1" class="restart-button">Restart</button>
+        </div>
+      </div>
+      <div class="score-display">Score: <span id="score1">0</span></div>
+      <div class="controls">
+        <div><span class="key">A</span> Left <span class="key">D</span> Right</div>
+        <div><span class="key">W</span> Rotate <span class="key">S</span> Down</div>
+        <div><span class="key">SPACE</span> Hard Drop</div>
+      </div>
+    </div>
+
+    <div class="player-area">
+      <h2 class="player-title">Player 2</h2>
+      <div class="canvas-wrapper">
+        <canvas id="player2" class="tetris-board" width="300" height="600"></canvas>
+        <div id="gameOver2" class="game-over hidden">
+          <h2 class="game-over-title">Game Over!</h2>
+          <button id="restart2" class="restart-button">Restart</button>
+        </div>
+      </div>
+      <div class="score-display">Score: <span id="score2">0</span></div>
+      <div class="controls">
+        <div><span class="key">←</span> Left <span class="key">→</span> Right</div>
+        <div><span class="key">↑</span> Rotate <span class="key">↓</span> Down</div>
+        <div><span class="key">ENTER</span> Hard Drop</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
