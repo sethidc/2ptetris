@@ -1,4 +1,4 @@
-# 2 Player Tetris - HTML/CSS/JS Refactor
+# 2 Player Tetris - HTML/CSS/JS
 
 This is a 2-player Tetris game implemented in HTML, CSS, and JavaScript. It allows two players to play Tetris side-by-side on the same screen, with mechanics for sending garbage lines to the opponent.
 
